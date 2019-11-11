@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author zameershaik
+ *
+ */
+module dataStructuresEducative {
+}

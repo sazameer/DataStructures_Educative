@@ -50,7 +50,7 @@ public class Stack<V> {
 		}
 		String output = "";
 		for(int i = 0; i < top ; i++) {
-			output += array[i].toString();
+			output += array[i].toString() + " ";
 		}
 		return output;
 	}
@@ -63,18 +63,18 @@ public class Stack<V> {
 		
 		System.out.println("Stack isFull? : " + stack.isFull());
 		
-		stack.toString();
+		System.out.println("Stack : " + stack.toString());
 		
 		stack.push(10);
 		stack.push(20);
 		stack.push(30);
 		stack.push(40);
 		
-		stack.toString();
+		System.out.println("Stack : " + stack.toString());
 		
 		stack.pop();
 		
-		stack.toString();
+		System.out.println("Stack : " + stack.toString());
 
 	}
 

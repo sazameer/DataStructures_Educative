@@ -5,5 +5,5 @@
  * @author zameershaik
  *
  */
-module dataStructuresEducative {
+module educative_DataStructures {
 }
